@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import "./globals.css";
 import { Sidebar } from "@/components/Sidebar";
+import Navbar from "@/components/Navbar";
 
 
 
@@ -18,9 +19,27 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="container-sm  p-8">
-        <Sidebar />
-        {/* <main>{children}</main> */}
+      <body className="container ">
+        <div className="d-flex justify-content-center gap-6 my-16" style={{
+          height: "auto",
+
+        }}>
+          <Sidebar />
+          <div
+            className="w-75 position-relative  "
+            style={{
+              maxWidth: "100%",
+              border: '1px solid #383838',
+              borderRadius: "20px",
+              backgroundColor: "#1e1e1f",
+              height: "auto",
+            }}
+          >
+            <Navbar />
+            <main >{children}</main>
+          </div>
+
+        </div>
       </body>
     </html>
   );

@@ -1,11 +1,12 @@
-
 import { CharacterDisplay } from "@/components/Helpers";
 export const Sidebar = () => {
     return (
         <div
-            className="p-8"
+            className="p-8 "
             style={{
-                height: "auto",
+                position: "sticky",
+                top: "60px",
+                height: "48rem",
                 maxWidth: "22%",
                 border: '1px solid #383838',
                 borderRadius: "20px",
@@ -51,13 +52,13 @@ export const Sidebar = () => {
                     </div>
                     <div className="ms-2" style={{ minWidth: "60%" }}>
                         <p className="text-secondary" style={{ fontSize: "11px" }}>EMAIL</p>
-                        <a
-                            href="mailto:tyagishivank1212@gmail.com"
+                        <div
+
                             className="fw-normal"
                             style={{ fontSize: "13px", overflow: 'hidden' }}
                         >
                             <CharacterDisplay character={"tyagishivank1212@gmail.com"} count={'17'} />
-                        </a>
+                        </div>
                     </div>
                 </div>
 
@@ -74,9 +75,9 @@ export const Sidebar = () => {
                     </div>
                     <div className="ms-2" style={{ minWidth: "60%", maxWidth: "60%" }}>
                         <p className="text-secondary" style={{ fontSize: "11px" }}>PHONE</p>
-                        <a href="tel:8923212675" className="fw-normal" style={{ fontSize: "13px" }}>
+                        <div className="fw-normal" style={{ fontSize: "13px" }}>
                             8923212675
-                        </a>
+                        </div>
                     </div>
                 </div>
 
