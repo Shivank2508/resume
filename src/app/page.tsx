@@ -1,5 +1,4 @@
-import Navbar from "@/components/Navbar";
-import Image from "next/image";
+
 const cardData = [
   {
     imgSrc: "https://codewithsadee.github.io/vcard-personal-portfolio/assets/images/icon-design.svg",
@@ -51,15 +50,14 @@ export default function Home() {
         </div>
         <hr className="border border-warning border-3 rounded-pill opacity-50 w-10 " />
         <div>
-          <p className="pb-2 fs-6 fw-normal">
-            I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media.
-            I enjoy turning complex problems into simple, beautiful and intuitive designs.
+          <p className="pb-2 fs-6 fw-normal" style={{ color: "hsl(0, 0%, 84%)" }}>
+            I am a skilled React.js and Next.js developer with a passion for building dynamic, high-performance web applications.
+            I specialize in creating responsive, user-friendly interfaces using TypeScript, Bootstrap, and custom CSS.<br />
+            With experience in state management (Redux, Context API, React Query) and server-side rendering, I deliver scalable and maintainable solutions.
+            I thrive in agile environments, prioritizing clean, reusable code with tools like ESLint and Prettier.
+            My focus is on crafting applications that are both functional and offer exceptional user experiences.
           </p>
-          <p className="fs-6 fw-normal">
-            My job is to build your website so that it is functional and user-friendly but at the same time attractive.
-            Moreover, I add personal touch to your product and make sure that is eye-catching and easy to use.
-            My aim is to bring across your message and identity in the most creative way. I created web design for many famous brand companies.
-          </p>
+
         </div>
         <div className="pt-8">
           <div className="fs-4 fw-semibold ">What I'm doing</div>
