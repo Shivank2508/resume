@@ -2,6 +2,8 @@
 
 import { useState } from 'react';
 
+import Link from 'next/link';
+import Image from 'next/image';
 const ProjectsTabs = () => {
 
     const [activeTab, setActiveTab] = useState('tab1');
@@ -57,32 +59,113 @@ const ProjectsTabs = () => {
 
             <div className="tab-content mt-3">
                 {activeTab === 'tab1' && (
-                    <div className="d-flex flex-wrap gap-3">
-                        <div className="" style={{ width: "calc(33.333% - 1rem)" }}>
-                            <img src="https://codewithsadee.github.io/vcard-personal-portfolio/assets/images/project-1.jpg" className="pb-2 rounded-4" alt="..." />
+                    <div className="d-flex flex-wrap gap-6">
+                        <Link href={"projects/Shivank"} className="" style={{ width: "calc(33.333% - 1rem)" }}>
+                            <Image
+                                src="/ProjectImages/Soul_of_braj.png" // start with '/' since it's in 'public'
+                                width={500}
+                                height={500}
+                                alt="Picture of the project "
+                            />
+
+                            {/* <img src="https://codewithsadee.github.io/vcard-personal-portfolio/assets/images/project-1.jpg" className="pb-2 rounded-4" alt="..." /> */}
                             <div className="p-2">
-                                <h5 className="fw-medium">Card title</h5>
+                                <h5 className="fw-medium my-2">Soul Of Braj</h5>
                                 <p style={{ color: "#d6d6d6b3" }}>
-                                    Nemo enim ipsam
+                                    Developed the website for Soul of Braj Federation  to highlight their non-profit initiatives and boost community engagement
                                 </p>
                             </div>
-                        </div>
-                        <div className="" style={{ width: "calc(33.333% - 1rem)" }}>
-                            <img src="https://codewithsadee.github.io/vcard-personal-portfolio/assets/images/project-1.jpg" className="pb-2 rounded-4" alt="..." />
+                        </Link>
+                        <Link href={"projects/Shivank"} className="" style={{ width: "calc(33.333% - 1rem)" }}>
+                            <Image
+                                src="/ProjectImages/bhashni.png" // start with '/' since it's in 'public'
+                                width={500}
+                                height={500}
+                                alt="Picture of the project"
+                            />
+
+                            {/* <img src="https://codewithsadee.github.io/vcard-personal-portfolio/assets/images/project-1.jpg" className="pb-2 rounded-4" alt="..." /> */}
                             <div className="p-2">
-                                <h5 className="fw-medium">Card title</h5>
+                                <h5 className="fw-medium my-2">Bhashni</h5>
                                 <p style={{ color: "#d6d6d6b3" }}>
-                                    Nemo enim ipsam
+                                    Developed the official website for Bhashni, a government initiative aimed at facilitating language exchange and promoting linguistic diversity.
                                 </p>
                             </div>
-                        </div>
+
+                        </Link>
+                        <Link href={"projects/Shivank"} className="" style={{ width: "calc(33.333% - 1rem)" }}>
+                            <Image
+                                src="/ProjectImages/Soul_of_braj.png" // start with '/' since it's in 'public'
+                                width={500}
+                                height={500}
+                                alt="Picture of the "
+                            />
+
+                            {/* <img src="https://codewithsadee.github.io/vcard-personal-portfolio/assets/images/project-1.jpg" className="pb-2 rounded-4" alt="..." /> */}
+                            <div className="p-2">
+                                <h5 className="fw-medium my-2">Soul Of Braj</h5>
+                                <p style={{ color: "#d6d6d6b3" }}>
+                                    Developed the website for Soul of Braj Federation  to highlight their non-profit initiatives and boost community engagement
+                                </p>
+                            </div>
+                        </Link>
+                        <Link href={"projects/Shivank"} className="" style={{ width: "calc(33.333% - 1rem)" }}>
+                            <Image
+                                src="/ProjectImages/Soul_of_braj.png" // start with '/' since it's in 'public'
+                                width={500}
+                                height={500}
+                                alt="Picture of the "
+                            />
+
+                            {/* <img src="https://codewithsadee.github.io/vcard-personal-portfolio/assets/images/project-1.jpg" className="pb-2 rounded-4" alt="..." /> */}
+                            <div className="p-2">
+                                <h5 className="fw-medium my-2">Soul Of Braj</h5>
+                                <p style={{ color: "#d6d6d6b3" }}>
+                                    Developed the website for Soul of Braj Federation  to highlight their non-profit initiatives and boost community engagement
+                                </p>
+                            </div>
+                        </Link>
+                        <Link href={"projects/Shivank"} className="" style={{ width: "calc(33.333% - 1rem)" }}>
+                            <Image
+                                src="/ProjectImages/Soul_of_braj.png" // start with '/' since it's in 'public'
+                                width={500}
+                                height={500}
+                                alt="Picture of the "
+                            />
+
+                            {/* <img src="https://codewithsadee.github.io/vcard-personal-portfolio/assets/images/project-1.jpg" className="pb-2 rounded-4" alt="..." /> */}
+                            <div className="p-2">
+                                <h5 className="fw-medium my-2">Soul Of Braj</h5>
+                                <p style={{ color: "#d6d6d6b3" }}>
+                                    Developed the website for Soul of Braj Federation  to highlight their non-profit initiatives and boost community engagement
+                                </p>
+                            </div>
+                        </Link>
+                        <Link href={"projects/Shivank"} className="" style={{ width: "calc(33.333% - 1rem)" }}>
+                            <Image
+                                src="/ProjectImages/Soul_of_braj.png" // start with '/' since it's in 'public'
+                                width={500}
+                                height={500}
+                                alt="Picture of the "
+                            />
+
+                            {/* <img src="https://codewithsadee.github.io/vcard-personal-portfolio/assets/images/project-1.jpg" className="pb-2 rounded-4" alt="..." /> */}
+                            <div className="p-2">
+                                <h5 className="fw-medium my-2">Soul Of Braj</h5>
+                                <p style={{ color: "#d6d6d6b3" }}>
+                                    Developed the website for Soul of Braj Federation  to highlight their non-profit initiatives and boost community engagement
+                                </p>
+                            </div>
+                        </Link>
                     </div>
+
+
 
                 )}
 
                 {activeTab === 'tab2' && (
                     <div className="d-flex flex-wrap gap-3">
-                        <div className="" style={{ width: "calc(33.333% - 1rem)" }}>
+                        <div role='button' className="" style={{ width: "calc(33.333% - 1rem)" }}>
                             <img src="https://codewithsadee.github.io/vcard-personal-portfolio/assets/images/project-1.jpg" className="pb-2 rounded-4" alt="..." />
                             <div className="p-2">
                                 <h5 className="fw-medium">Card title</h5>
@@ -91,7 +174,7 @@ const ProjectsTabs = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className="" style={{ width: "calc(33.333% - 1rem)" }}>
+                        <div role='button' className="" style={{ width: "calc(33.333% - 1rem)" }}>
                             <img src="https://codewithsadee.github.io/vcard-personal-portfolio/assets/images/project-1.jpg" className="pb-2 rounded-4" alt="..." />
                             <div className="p-2">
                                 <h5 className="fw-medium">Card title</h5>
@@ -100,7 +183,7 @@ const ProjectsTabs = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className="" style={{ width: "calc(33.333% - 1rem)" }}>
+                        <div role='button' className="" style={{ width: "calc(33.333% - 1rem)" }}>
                             <img src="https://codewithsadee.github.io/vcard-personal-portfolio/assets/images/project-1.jpg" className="pb-2 rounded-4" alt="..." />
                             <div className="p-2">
                                 <h5 className="fw-medium">Card title</h5>
@@ -109,7 +192,7 @@ const ProjectsTabs = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className="" style={{ width: "calc(33.333% - 1rem)" }}>
+                        <div role='button' className="" style={{ width: "calc(33.333% - 1rem)" }}>
                             <img src="https://codewithsadee.github.io/vcard-personal-portfolio/assets/images/project-1.jpg" className="pb-2 rounded-4" alt="..." />
                             <div className="p-2">
                                 <h5 className="fw-medium">Card title</h5>
@@ -119,7 +202,6 @@ const ProjectsTabs = () => {
                             </div>
                         </div>
                     </div>
-
                 )}
             </div>
         </div>
