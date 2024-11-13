@@ -4,7 +4,7 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 import "./globals.css";
 import { Sidebar } from "@/components/Sidebar";
 import Navbar from "@/components/Navbar";
-
+import useCheckWidth from "@/components/Helpers";
 
 
 export const metadata: Metadata = {
@@ -17,6 +17,8 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const width = useCheckWidth;
+  console.log(width, "width")
   return (
     <html lang="en">
       <body className="container ">

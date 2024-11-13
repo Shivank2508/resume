@@ -1,5 +1,5 @@
 "use client";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 export const CharacterDisplay = ({ character, count }) => {
     const [isHovered, setIsHovered] = useState(false);
@@ -22,3 +22,26 @@ export const CharacterDisplay = ({ character, count }) => {
         </div>
     );
 };
+
+
+
+const useCheckWidth = () => {
+    const [width, setWidth] = useState(window.innerWidth);
+
+    useEffect(() => {
+        const handleResize = () => {
+            setWidth(window.innerWidth);
+        };
+
+        window.addEventListener('resize', handleResize);
+
+        // Cleanup listener on component unmount
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+    }, []);
+
+    return width;
+};
+
+export default useCheckWidth;

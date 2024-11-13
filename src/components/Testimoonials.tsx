@@ -1,25 +1,26 @@
+import { resumeData } from "./Data";
+
 const Testimonials = () => {
+    const testtestimonialsData = resumeData.testimonialsData || [];
     return (
         <ul className="testimonials-list">
-            {Array(4).fill().map((_, index) => (
+            {testtestimonialsData?.map((data, index) => (
                 <li key={index} className="testimonials-item">
                     <div className="content-card p-4">
                         <figure className="testimonials-avatar-box">
                             <img
-                                src="https://codewithsadee.github.io/vcard-personal-portfolio/assets/images/avatar-1.png"
+                                src={data?.avatar}
                                 alt="Daniel lewis"
                                 width="80"
                                 data-testimonials-avatar=""
                             />
                         </figure>
                         <h4 className="fs-5 fw-semibold ms-11 ps-11" data-testimonials-title="">
-                            Daniel lewis
+                            {data?.name}
                         </h4>
                         <div className="testimonials-text pt-4" data-testimonials-text="">
                             <p>
-                                Richard was hired to create a corporate identity. Richard was hired to create a corporate identity. Richard was
-                                hired to create a corporate identity. Richard was hired to create a corporate identity. Richard was hired to create
-                                a corporate identity.
+                                {data?.text}
                             </p>
                         </div>
                     </div>

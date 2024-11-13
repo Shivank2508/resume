@@ -1,0 +1,32 @@
+{
+  "hosting": {
+    "public": "out",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "/contact",
+        "destination": "/contact.html"
+      },
+      {
+        "source": "/other",
+        "destination": "/other.html"
+      },
+      {
+        "source": "/projects",
+        "destination": "/project.html"
+      },
+      {
+        "source": "/resume",
+        "destination": "/resume.html"
+      },
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

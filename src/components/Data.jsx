@@ -62,7 +62,30 @@ export const resumeData = {
                 This phase laid the groundwork for my future studies in engineering and computer science.
             `
         }
+    ],
+    testimonialsData: [
+        {
+            name: "Alex Turner",
+            avatar: "https://codewithsadee.github.io/vcard-personal-portfolio/assets/images/avatar-1.png",
+            text: "Shivank Tyagi  delivered an exceptional web application for us. Their expertise in React.js and Next.js, along with their mastery of TypeScript and custom CSS, made our project a huge success. The user interface is clean, responsive, and highly intuitive. We couldn’t be happier with the result!"
+        },
+        {
+            name: "Maria Sanchez",
+            avatar: "https://codewithsadee.github.io/vcard-personal-portfolio/assets/images/avatar-2.png",
+            text: "Working with Shvank Tyagi was a great experience. Their ability to implement state management solutions using Redux and React Query was impressive. They prioritize writing clean, reusable code, and the agile process was a breeze with them on the team."
+        },
+        {
+            name: "David Kim",
+            avatar: "https://codewithsadee.github.io/vcard-personal-portfolio/assets/images/avatar-4.png",
+            text: "We needed a high-performance, scalable web app, and Shivank Tyagi delivered beyond expectations. Their experience with server-side rendering and client-side optimization has made our application both fast and maintainable. The attention to detail in both functionality and design was impressive."
+        },
+        {
+            name: "Emma Clark",
+            avatar: "https://codewithsadee.github.io/vcard-personal-portfolio/assets/images/avatar-3.png",
+            text: "Shivank Tyagi is an outstanding developer with a strong focus on user experience. Their work on our Next.js project, coupled with their proficiency in Bootstrap and ESLint, resulted in a seamless, high-quality application. They exceeded our expectations in every aspect."
+        }
     ]
+
 };
 
 

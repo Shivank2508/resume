@@ -13,9 +13,9 @@ const Skills = () => {
                             width: "90%",
                             background: 'linear-gradient(to right, hsl(45, 100%, 72%), hsl(35, 100%, 68%))',
                         }}
-                        aria-valuenow="90"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
+                        aria-valuenow={90}
+                        aria-valuemin={0}
+                        aria-valuemax={100}
                     ></div>
                 </div>
             </div>
@@ -32,9 +32,9 @@ const Skills = () => {
                             width: "80%",
                             background: 'linear-gradient(to right, hsl(45, 100%, 72%), hsl(35, 100%, 68%))',
                         }}
-                        aria-valuenow="80"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
+                        aria-valuenow={80}
+                        aria-valuemin={0}
+                        aria-valuemax={100}
                     ></div>
                 </div>
             </div>
@@ -51,9 +51,9 @@ const Skills = () => {
                             width: "85%",
                             background: 'linear-gradient(to right, hsl(45, 100%, 72%), hsl(35, 100%, 68%))',
                         }}
-                        aria-valuenow="85"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
+                        aria-valuenow={85}
+                        aria-valuemin={0}
+                        aria-valuemax={100}
                     ></div>
                 </div>
             </div>
@@ -70,9 +70,9 @@ const Skills = () => {
                             width: "75%",
                             background: 'linear-gradient(to right, hsl(45, 100%, 72%), hsl(35, 100%, 68%))',
                         }}
-                        aria-valuenow="75"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
+                        aria-valuenow={75}
+                        aria-valuemin={0}
+                        aria-valuemax={100}
                     ></div>
                 </div>
             </div>
@@ -89,9 +89,9 @@ const Skills = () => {
                             width: "80%",
                             background: 'linear-gradient(to right, hsl(45, 100%, 72%), hsl(35, 100%, 68%))',
                         }}
-                        aria-valuenow="80"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
+                        aria-valuenow={80}
+                        aria-valuemin={0}
+                        aria-valuemax={100}
                     ></div>
                 </div>
             </div>
@@ -108,9 +108,9 @@ const Skills = () => {
                             width: "85%",
                             background: 'linear-gradient(to right, hsl(45, 100%, 72%), hsl(35, 100%, 68%))',
                         }}
-                        aria-valuenow="85"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
+                        aria-valuenow={85}
+                        aria-valuemin={0}
+                        aria-valuemax={100}
                     ></div>
                 </div>
             </div>
@@ -127,9 +127,9 @@ const Skills = () => {
                             width: "70%",
                             background: 'linear-gradient(to right, hsl(45, 100%, 72%), hsl(35, 100%, 68%))',
                         }}
-                        aria-valuenow="70"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
+                        aria-valuenow={70}
+                        aria-valuemin={0}
+                        aria-valuemax={100}
                     ></div>
                 </div>
             </div>
@@ -146,9 +146,9 @@ const Skills = () => {
                             width: "72%",
                             background: 'linear-gradient(to right, hsl(45, 100%, 72%), hsl(35, 100%, 68%))',
                         }}
-                        aria-valuenow="72"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
+                        aria-valuenow={72}
+                        aria-valuemin={0}
+                        aria-valuemax={100}
                     ></div>
                 </div>
             </div>
