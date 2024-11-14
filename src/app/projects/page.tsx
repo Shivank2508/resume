@@ -60,52 +60,49 @@ const ProjectsTabs = () => {
             <div className="tab-content mt-3">
                 {activeTab === 'tab1' && (
                     <div className="d-flex flex-wrap gap-6">
-                        <Link href={"projects/Shivank"} className="" style={{ width: "calc(33.333% - 1rem)" }}>
+                        <Link href={"https://www.sobf.in/"} target='_blank' className="" style={{ width: "calc(33.333% - 1rem)" }}>
                             <Image
-                                src="/ProjectImages/Soul_of_braj.png" // start with '/' since it's in 'public'
+                                src="/ProjectImages/Soul_of_braj.png"
                                 width={500}
-                                height={500}
-                                alt="Picture of the project "
+                                height={300} // Adjust height for uniformity
+                                alt="Picture of the project"
+                                style={{ objectFit: "cover", height: "200px", width: "100%" }} // Maintain aspect ratio and consistent height
                             />
-
-                            {/* <img src="https://codewithsadee.github.io/vcard-personal-portfolio/assets/images/project-1.jpg" className="pb-2 rounded-4" alt="..." /> */}
                             <div className="p-2">
                                 <h5 className="fw-medium my-2">Soul Of Braj</h5>
                                 <p style={{ color: "#d6d6d6b3" }}>
-                                    Developed the website for Soul of Braj Federation  to highlight their non-profit initiatives and boost community engagement
+                                    Developed the website for Soul of Braj Federation to highlight their non-profit initiatives and boost community engagement
                                 </p>
                             </div>
                         </Link>
-                        <Link href={"projects/Shivank"} className="" style={{ width: "calc(33.333% - 1rem)" }}>
-                            <Image
-                                src="/ProjectImages/bhashni.png" // start with '/' since it's in 'public'
-                                width={500}
-                                height={500}
-                                alt="Picture of the project"
-                            />
 
-                            {/* <img src="https://codewithsadee.github.io/vcard-personal-portfolio/assets/images/project-1.jpg" className="pb-2 rounded-4" alt="..." /> */}
+                        <Link href={"https://bhashini.gov.in/bhashadaan/en/home"} target='_blank' className="" style={{ width: "calc(33.333% - 1rem)" }}>
+                            <Image
+                                src="/ProjectImages/bhashni.png"
+                                width={500}
+                                height={300}
+                                alt="Picture of the project"
+                                style={{ objectFit: "cover", height: "200px", width: "100%" }}
+                            />
                             <div className="p-2">
                                 <h5 className="fw-medium my-2">Bhashni</h5>
                                 <p style={{ color: "#d6d6d6b3" }}>
                                     Developed the official website for Bhashni, a government initiative aimed at facilitating language exchange and promoting linguistic diversity.
                                 </p>
                             </div>
-
                         </Link>
                         <Link href={"projects/Shivank"} className="" style={{ width: "calc(33.333% - 1rem)" }}>
                             <Image
-                                src="/ProjectImages/Soul_of_braj.png" // start with '/' since it's in 'public'
+                                src="/ProjectImages/repay.png"
                                 width={500}
-                                height={500}
-                                alt="Picture of the "
+                                height={300}
+                                alt="Picture of the project"
+                                style={{ objectFit: "cover", height: "200px", width: "100%" }}
                             />
-
-                            {/* <img src="https://codewithsadee.github.io/vcard-personal-portfolio/assets/images/project-1.jpg" className="pb-2 rounded-4" alt="..." /> */}
                             <div className="p-2">
-                                <h5 className="fw-medium my-2">Soul Of Braj</h5>
+                                <h5 className="fw-medium my-2">Project And Telecaller Management Portal</h5>
                                 <p style={{ color: "#d6d6d6b3" }}>
-                                    Developed the website for Soul of Braj Federation  to highlight their non-profit initiatives and boost community engagement
+                                    Developed a comprehensive portal to manage project workflows and telecaller activities effectively.
                                 </p>
                             </div>
                         </Link>
