@@ -11,20 +11,15 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
+    "/resume/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/resume/page.js"
+    ],
     "/projects/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/projects/page.js"
-    ],
-    "/projects/[projectsid]/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/projects/[projectsid]/page.js"
-    ],
-    "/projects/[projectsid]/not-found": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/projects/[projectsid]/not-found.js"
     ],
     "/other/page": [
       "static/chunks/webpack.js",
@@ -35,6 +30,16 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/contact/page.js"
+    ],
+    "/projects/[projectsid]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/projects/[projectsid]/page.js"
+    ],
+    "/projects/[projectsid]/not-found": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/projects/[projectsid]/not-found.js"
     ],
     "/_not-found/page": [
       "static/chunks/webpack.js",

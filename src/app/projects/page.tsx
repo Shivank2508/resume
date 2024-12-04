@@ -27,10 +27,10 @@ const ProjectsTabs = () => {
                         }}
                         onClick={() => handleTabClick('tab1')}
                     >
-                        All
+                        Web Portal
                     </div>
                 </li>
-                <li className="">
+                {/* <li className="">
                     <div
                         className={`nav-link ${activeTab === 'tab2' ? 'active' : ''}`}
                         style={{
@@ -41,7 +41,7 @@ const ProjectsTabs = () => {
                     >
                         Web Portals
                     </div>
-                </li>
+                </li> */}
                 {/* <li className="">
                     <div
                         className={`nav-link ${activeTab === 'tab3' ? 'active' : ''}`}
@@ -91,7 +91,7 @@ const ProjectsTabs = () => {
                                 </p>
                             </div>
                         </Link>
-                        <Link href={"projects/Shivank"} className="" style={{ width: "calc(33.333% - 1rem)" }}>
+                        <Link href={"https://staging.iirpldev.com:8282"} target='_blank' className="" style={{ width: "calc(33.333% - 1rem)" }}>
                             <Image
                                 src="/ProjectImages/repay.png"
                                 width={500}
@@ -106,53 +106,57 @@ const ProjectsTabs = () => {
                                 </p>
                             </div>
                         </Link>
-                        <Link href={"projects/Shivank"} className="" style={{ width: "calc(33.333% - 1rem)" }}>
+
+                        <Link href={"https://kanatomy.com/"} target='_blank' className="" style={{ width: "calc(33.333% - 1rem)" }}>
                             <Image
-                                src="/ProjectImages/Soul_of_braj.png" // start with '/' since it's in 'public'
+                                src="/ProjectImages/kanatomy.jpeg" // start with '/' since it's in 'public'
                                 width={500}
                                 height={500}
-                                alt="Picture of the "
+                                alt="Picture of the projects"
+                                style={{ objectFit: "cover", height: "200px", width: "100%" }}
                             />
-
-                            {/* <img src="https://codewithsadee.github.io/vcard-personal-portfolio/assets/images/project-1.jpg" className="pb-2 rounded-4" alt="..." /> */}
                             <div className="p-2">
-                                <h5 className="fw-medium my-2">Soul Of Braj</h5>
+                                <h5 className="fw-medium my-2">Kanatomy</h5>
                                 <p style={{ color: "#d6d6d6b3" }}>
-                                    Developed the website for Soul of Braj Federation  to highlight their non-profit initiatives and boost community engagement
+                                    Developed a review portal for NGOs and individuals to highlight their initiatives and boost community engagement.
                                 </p>
                             </div>
                         </Link>
-                        <Link href={"projects/Shivank"} className="" style={{ width: "calc(33.333% - 1rem)" }}>
+
+                        <Link href={"https://staging.iirpldev.com:8282/customer/mitr/login"} target='_blank' className="" style={{ width: "calc(33.333% - 1rem)" }}>
                             <Image
-                                src="/ProjectImages/Soul_of_braj.png" // start with '/' since it's in 'public'
+                                src="/ProjectImages/redemption.png" // start with '/' since it's in 'public'
                                 width={500}
                                 height={500}
-                                alt="Picture of the "
+                                alt="Picture of the projects"
+                                style={{ objectFit: "cover", height: "200px", width: "100%" }}
                             />
 
                             {/* <img src="https://codewithsadee.github.io/vcard-personal-portfolio/assets/images/project-1.jpg" className="pb-2 rounded-4" alt="..." /> */}
                             <div className="p-2">
-                                <h5 className="fw-medium my-2">Soul Of Braj</h5>
+                                <h5 className="fw-medium my-2">Redemption Portal</h5>
                                 <p style={{ color: "#d6d6d6b3" }}>
-                                    Developed the website for Soul of Braj Federation  to highlight their non-profit initiatives and boost community engagement
+                                    It is like e-commerce portal where users can place redemptions and complete KYC as well.
                                 </p>
                             </div>
                         </Link>
-                        <Link href={"projects/Shivank"} className="" style={{ width: "calc(33.333% - 1rem)" }}>
+                        <Link href={"https://amtdairyfood.com/"} target='_blank' className="" style={{ width: "calc(33.333% - 1rem)" }}>
                             <Image
-                                src="/ProjectImages/Soul_of_braj.png" // start with '/' since it's in 'public'
+                                src="/ProjectImages/amt.png" // start with '/' since it's in 'public'
                                 width={500}
                                 height={500}
-                                alt="Picture of the "
+                                alt="Picture of the projects"
+                                style={{ objectFit: "cover", height: "200px", width: "100%" }}
                             />
 
                             {/* <img src="https://codewithsadee.github.io/vcard-personal-portfolio/assets/images/project-1.jpg" className="pb-2 rounded-4" alt="..." /> */}
                             <div className="p-2">
-                                <h5 className="fw-medium my-2">Soul Of Braj</h5>
+                                <h5 className="fw-medium my-2">A M T Processing Dairy & Food Pvt. Ltd.</h5>
                                 <p style={{ color: "#d6d6d6b3" }}>
-                                    Developed the website for Soul of Braj Federation  to highlight their non-profit initiatives and boost community engagement
+                                    Developed the website for A M T Processing Dairy & Food Pvt. Ltd. to showcase their products, factory solutions, and dairy plant machinery.
                                 </p>
                             </div>
+
                         </Link>
                     </div>
 
@@ -160,7 +164,7 @@ const ProjectsTabs = () => {
 
                 )}
 
-                {activeTab === 'tab2' && (
+                {/* {activeTab === 'tab2' && (
                     <div className="d-flex flex-wrap gap-3">
                         <div role='button' className="" style={{ width: "calc(33.333% - 1rem)" }}>
                             <img src="https://codewithsadee.github.io/vcard-personal-portfolio/assets/images/project-1.jpg" className="pb-2 rounded-4" alt="..." />
@@ -199,7 +203,7 @@ const ProjectsTabs = () => {
                             </div>
                         </div>
                     </div>
-                )}
+                )} */}
             </div>
         </div>
     );
